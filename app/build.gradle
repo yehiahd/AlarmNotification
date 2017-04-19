@@ -10,6 +10,7 @@ android {
         targetSdkVersion 23
         versionCode 1
         versionName "1.0"
+        manifestPlaceholders = [HOCKEYAPP_APP_ID: "b440bc7e70454894ab67213a9e99141a"]
     }
     buildTypes {
         release {
